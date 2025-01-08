@@ -6,6 +6,7 @@ import Details from '../../packages/components/details/details';
 import Checkboxes from '../../packages/components/checkboxes/checkboxes';
 import Radios from '../../packages/components/radios/radios';
 import Card from '../../packages/components/card/card';
+import CharacterCount from '../../packages/components/character-count/character-count';
 
 // Toolkit polyfills
 import '../../packages/polyfills';
@@ -20,6 +21,7 @@ SkipLink();
 Checkboxes();
 Radios();
 Card();
+CharacterCount();
 
 // Initialise documentation site components
 
